@@ -34,5 +34,14 @@
     "image": "./guessing.png",
     "liveLink": "https://jocular-strudel-018970.netlify.app/",
     "githubLink": "https://github.com/wsd-shoaib/Guessing-Game"
+  },
+  {
+    "id": 5,
+    "name": "Portfolio ",
+    "description": "A responsive static blog website created with React. It features multiple blog posts, reusable components, and modern UI.",
+    "technologies": ["Css", "Bootstrap", "JavaScript", "React"],
+    "image": "./portfolio.png",
+    "liveLink": "abdul-mukit-shoaib.netlify.app",
+    "githubLink": "https://github.com/wsd-shoaib/Portfolio"
   }
 ]
