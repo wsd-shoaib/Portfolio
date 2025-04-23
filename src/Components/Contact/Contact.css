@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Outfit&display=swap");
+
+.contact-area {
+  padding: 1rem 3rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contact-title {
+  text-align: center;
+  font-size: 38px;
+  color: #fff;
+  margin-bottom: 2.5rem;
+  font-weight: 600;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  justify-content: center;
+}
+
+.contact-left h2 {
+  background: linear-gradient(270deg, #df8908 50%, #b415ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+
+.contact-left p,
+.contact-way {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+}
+
+.icon {
+  margin-right: 0.3rem;
+  font-size: 22px;
+}
+
+.contact-right {
+  padding: 0 3rem;
+}
+
+.contact-right form div {
+  margin: 1rem 0;
+}
+
+.contact-right input,
+.contact-right textarea {
+  display: block;
+  width: 85%;
+  background-color: rgb(36, 39, 39);
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 0.5rem;
+  padding: 1rem 0.5rem;
+}
+
+.contact-right textarea {
+  height: 200px;
+}
+
+.contact-right button {
+  background-color: rgb(14, 153, 83);
+  padding: 0.5rem 0.7rem;
+  color: #fff;
+  border: 2px solid #000;
+  border-radius: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+/* Success message animation */
+.success-message {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: auto;
+  max-width: 90%;
+  padding: 10px 20px;
+  background-color: #e6fffa;
+  color: #000;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 9999;
+  opacity: 0;
+  animation: fadeInOut 5s ease-in-out forwards;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -10px);
+  }
+  10% {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -10px);
+  }
+}
+
+/* Input animation */
+.animate-input {
+  animation: scaleEffect 0.4s ease-in-out;
+}
+
+@keyframes scaleEffect {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Responsive */
+@media screen and (max-width: 890px) {
+  .contact-right {
+    padding: 0 1rem;
+  }
+
+  .contact-right input,
+  .contact-right textarea {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .contact {
+    grid-template-columns: 1fr;
+  }
+
+  .success-message {
+    top: 10%;
+    width: 90%;
+  }
+}

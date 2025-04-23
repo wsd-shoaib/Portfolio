@@ -1,0 +1,76 @@
+/* Footer Styles */
+.footer {
+  background-color: #1a202c;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-left,
+.footer-middle,
+.footer-right {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer h2,
+.footer h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-left p,
+.footer-right p {
+  color: #a0aec0;
+}
+
+.footer-middle ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-middle ul li {
+  margin: 10px 0;
+}
+
+.footer-middle ul li a {
+  color: #a0aec0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-middle ul li a:hover {
+  color: #fff;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+}
+
+.social-links a {
+  color: #a0aec0;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.social-links a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #a0aec0;
+}
+
+.footer-bottom #year {
+  font-weight: bold;
+}

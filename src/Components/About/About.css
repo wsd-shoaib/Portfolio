@@ -1,0 +1,197 @@
+.about-area {
+  padding: 2rem 0;
+}
+
+.about-area .about-header {
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+}
+.about-area .hr {
+  border: 4px dotted #fffeff;
+  width: 15%;
+  margin: auto;
+  border-radius: 5rem;
+}
+
+.about {
+  display: flex;
+  gap: 5rem;
+  padding: 3rem 5rem 2rem 10rem;
+  justify-content: space-between;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  transition: 0.8s;
+}
+
+.about img {
+  width: 250px;
+  border-radius: 5rem;
+}
+.about-inform {
+  padding: 0.8rem 0rem;
+}
+.about-inform p {
+  display: block;
+  line-height: 1rem;
+}
+.about-right {
+  width: 60%;
+}
+
+.list {
+  width: 80%;
+  margin: 20px 0;
+  text-align: justify;
+}
+.list li {
+  margin: 2.5rem 0;
+  position: relative;
+  list-style: none;
+  z-index: 0;
+}
+
+.list li::before {
+  content: "";
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0%;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  height: 1.6rem;
+  border-radius: 1000px;
+}
+
+.list li::after {
+  content: "";
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0%;
+  width: 0%;
+  background: #c409d9;
+  background: linear-gradient(
+    90deg,
+    rgba(196, 9, 217, 0.97) 0%,
+    rgba(160, 99, 10, 1) 80%
+  );
+  height: 1.6rem;
+  border-radius: 1000px;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+.list .html::after {
+  animation-name: html;
+}
+@keyframes html {
+  to {
+    width: 95%;
+  }
+}
+.list .css::after {
+  animation-name: css;
+}
+@keyframes css {
+  to {
+    width: 90%;
+  }
+}
+.list .java::after {
+  animation-name: java;
+}
+@keyframes java {
+  to {
+    width: 80%;
+  }
+}
+.list .boost::after {
+  animation-name: boost;
+}
+@keyframes boost {
+  to {
+    width: 90%;
+  }
+}
+.list .React::after {
+  animation-name: react;
+}
+@keyframes react {
+  to {
+    width: 85%;
+  }
+}
+.list .Next::after {
+  animation-name: next;
+}
+@keyframes next {
+  to {
+    width: 70%;
+  }
+}
+
+.about-footer {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+}
+.about-footer h1 {
+  color: rgba(188, 38, 158, 0.83);
+  text-align: center;
+}
+.area {
+  border-right: 3px solid #690ea5;
+  padding-right: 5rem;
+}
+
+@media screen and (max-width: 990px) {
+  .about {
+    padding: 3rem 5rem 2rem 3rem;
+  }
+}
+@media screen and (max-width: 750px) {
+  .about {
+    display: block;
+    width: 100%;
+    margin: auto;
+  }
+  .about-right {
+    width: 100%;
+  }
+  .area {
+    border-right: 3px solid #690ea5;
+    padding-right: 2rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .about {
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding: 3rem 1rem 1rem 1rem;
+  }
+  .about-right {
+    width: 100%;
+  }
+  .list {
+    width: 85%;
+    margin: 20px auto;
+    text-align: justify;
+  }
+  .about img {
+    width: 180px;
+    border-radius: 5rem;
+  }
+  .about-footer {
+    font-family: "Outfit", sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    padding: 0 0.2rem;
+  }
+  .area {
+    border: none;
+    padding-right: 0.9rem;
+  }
+}

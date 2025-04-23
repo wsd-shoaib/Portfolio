@@ -1,0 +1,83 @@
+.service-area {
+  padding: 1rem 2rem;
+}
+
+.service-area .hr {
+  border: 4px dotted #ffffff;
+  width: 15%;
+  margin: auto;
+  border-radius: 5rem;
+}
+.service-header {
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+}
+
+.Services-Data {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 4rem 1rem 1rem 1rem;
+  width: 90%;
+  margin: auto;
+}
+.single-data {
+  border: 1px solid #fff;
+  padding: 2rem;
+  line-height: 1.4rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: 0.9s ease;
+}
+.single-data:hover {
+  transform: scale(1.03);
+  box-shadow: 2px 2px 9px 2px #000;
+  background-color: rgba(70, 24, 71, 0.719);
+}
+
+.single-data .id {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+.single-data .title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  background: linear-gradient(270deg, #df8908 50%, #b415ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.single-data .des {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@media screen and (max-width: 850px) {
+  .Services-Data {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 4rem 0.5rem 1rem 0.5rem;
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .Services-Data {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    padding: 3rem 0.5rem 1rem 0.5rem;
+    width: 100%;
+    margin: auto;
+  }
+  .single-data {
+    padding: 1rem;
+  }
+}

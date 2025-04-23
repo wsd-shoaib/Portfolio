@@ -1,0 +1,32 @@
+[
+  {
+    "id": "01",
+    "title": "Website Design",
+    "description": "Modern and responsive website design using HTML, CSS, and Bootstrap."
+  },
+  {
+    "id": " 02",
+    "title": "Frontend Development",
+    "description": "Interactive UI development with JavaScript and React."
+  },
+  {
+    "id": "03",
+    "title": "Bug Fixing",
+    "description": "Fixing frontend bugs and optimizing website performance."
+  },
+  {
+    "id": "04",
+    "title": "PSD to HTML",
+    "description": "Converting PSD or Figma designs into clean HTML/CSS code."
+  },
+  {
+    "id": "05",
+    "title": "React Component Building",
+    "description": "Reusable, maintainable React components for scalable projects."
+  },
+  {
+    "id": "06",
+    "title": "Static Website Building",
+    "description": "Fast and SEO-friendly static websites with React or HTML/CSS."
+  }
+]

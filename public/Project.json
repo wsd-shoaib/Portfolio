@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "E-commerce",
+    "description": "A full-featured e-commerce website built using React and Context API. Users can view products, select size, and add to cart.",
+    "technologies": ["React", "Context API", "JavaScript", "CSS"],
+    "image": "./ecommerce.png",
+    "liveLink": "https://ecommerce-shaifan-react-app.netlify.app/",
+    "githubLink": "https://github.com/wsd-shoaib/E-commerce-react-app"
+  },
+  {
+    "id": 2,
+    "name": "Blog Website",
+    "description": "A responsive static blog website created with React. It features multiple blog posts, reusable components, and modern UI.",
+    "technologies": ["React", "Bootstrap", "JavaScript"],
+    "image": "./blog.png",
+    "liveLink": "https://wsd-blogwebsite.netlify.app/",
+    "githubLink": "https://github.com/wsd-shoaib/Blog-Website"
+  },
+  {
+    "id": 3,
+    "name": "To-Do-App",
+    "description": "A responsive static blog website created with React. It features multiple blog posts, reusable components, and modern UI.",
+    "technologies": ["Css", "JavaScript"],
+    "image": "./todo.png",
+    "liveLink": "https://startling-cajeta-a7cff4.netlify.app/",
+    "githubLink": "https://github.com/wsd-shoaib/To-Do-app"
+  },
+  {
+    "id": 4,
+    "name": "Guessing-Game",
+    "description": "A responsive static blog website created with React. It features multiple blog posts, reusable components, and modern UI.",
+    "technologies": ["Css", "JavaScript"],
+    "image": "./guessing.png",
+    "liveLink": "https://jocular-strudel-018970.netlify.app/",
+    "githubLink": "https://github.com/wsd-shoaib/Guessing-Game"
+  }
+]
